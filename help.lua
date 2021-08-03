@@ -10,6 +10,6 @@ RegisterCommand('help', function()
 end, false)
 
 function msg(text)
-    -- TriggerEvent will send a chat message to the client in the prefix as red
+    -- TriggerEvent will send a chat message to the client in the prefix in a red color
     TriggerEvent("chatMessage",  "[Insert Server Name]", {255,0,0}, text)
 end
